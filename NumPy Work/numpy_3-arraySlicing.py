@@ -38,7 +38,13 @@ print("\n\n", "-----------------------------------------",
 print("\n\n", "-----------------------------------------",
       "\nPrint only first element from all the records ::", arr2[:, 0])
 
-print("\n\n", "-----------------------------------------",
-      "\nPrint only first element from all the records as an NP array ::", np.array(arr2[:, 0]))
 
+
+# you can access the particular element by directly using comma within [] instead of
+#  using [] for each index on the elements
+print("\n\n", "-----------------------------------------",
+      "\n Testing arr2[1,2] ::", arr2[1,2])
+
+print("\n\n", "-----------------------------------------",
+      "\n Testing arr2[1][2] ::", arr2[1][2])
 
